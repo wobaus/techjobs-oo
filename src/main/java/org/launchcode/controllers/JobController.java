@@ -23,7 +23,7 @@ public class JobController{
     private JobData jobData = JobData.getInstance();
 
 
-    @RequestMapping(value = "/", method = RequestMethod.GET)
+    @RequestMapping(value = "", method = RequestMethod.GET)
 
     public String index(Model model, int id) {
 
